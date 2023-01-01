@@ -9,3 +9,8 @@ months.each do |key, value|
     print key+ " "
     puts value
 end
+
+months["7"] = "July"
+puts months["7"]
+
+puts months
