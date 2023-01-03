@@ -11,3 +11,6 @@ end
 months["7"] = "July"
 puts months["7"]
 puts months
+
+a = [1,2,3]
+puts a[-1]
