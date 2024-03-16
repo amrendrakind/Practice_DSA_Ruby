@@ -5,7 +5,7 @@
 # nums = [2,7,11,15]
 nums = [3,2,4]
 
-target = 6
+target = 7
 output = []
 len = nums.length
 i=0

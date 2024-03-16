@@ -12,4 +12,8 @@ def sumArray (arr)
     return total
 end
 
+def sum_arr(arr)
+  return arr.sum
+end
 puts sumArray([1,2,3,4,5])
+puts sum_arr([1,2,3,4,5])

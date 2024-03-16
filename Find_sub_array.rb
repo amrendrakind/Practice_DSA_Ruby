@@ -15,3 +15,22 @@ while array_size > 0
 end
 
 pp result
+
+require 'set'
+
+arr = 'management'
+
+output = ['man', 'mage', 'gem']
+
+arr_char = arr.split('')
+arr_size = arr_char.size
+result = Set.new
+while arr_size > 0
+	sub_array = arr_char.combination(arr_size).to_a
+	sub_array.each do |a|
+		word = a.join('')
+		result << word if  output.any? { |w| w == word }
+	end
+	arr_size -= 1
+end
+pp result.to_a
