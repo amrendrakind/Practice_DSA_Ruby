@@ -18,9 +18,9 @@ pp result
 
 require 'set'
 
-arr = 'management'
+arr = 'managementofindia'
 
-output = ['man', 'mage', 'gem']
+output = ['man', 'mage', 'gem', 'india']
 
 arr_char = arr.split('')
 arr_size = arr_char.size
